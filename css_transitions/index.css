@@ -1,0 +1,13 @@
+.heading{
+  color: darkblue;
+  font-size: 15px;
+  transition: all 0.5s; /* allows you to smoothly transition heading, instead of it popping out. */
+  /* transition: color 0.5s, font-size 0.5s, letter-spacing 1s; */
+}
+
+.heading:hover {
+  color: green;
+  font-size: 20px;
+  /* word-spacing: 10px; */
+  letter-spacing: 10px;
+}
