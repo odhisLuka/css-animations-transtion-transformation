@@ -1,0 +1,21 @@
+/* customizing transitions */
+
+.heading{
+  color: darkblue;
+  font-size: 15px;
+  /* You can also break this, transition: all 0.5s; into two as follows:*/
+  /* transition-property: color, font-size; or */ 
+
+  transition-property: all;
+  transition-duration: 0.5s;
+
+  transition-delay: 1s; /* takes one second bfore the heading transitions */
+
+  transition-timing-function: linear; /*how a transition plays out, for exmaple, linear which is default.
+                                        You can also set it to ease, ease-in, ease-ot, ease-in-out*/
+}
+
+.heading:hover {
+  color: brown;
+  font-size: 20px;
+}
