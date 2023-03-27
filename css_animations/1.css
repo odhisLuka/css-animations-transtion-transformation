@@ -4,18 +4,15 @@
   background-color: #f00;
   border: 1px solid #000;
 
-  /* animation-name: grow;
+  animation-name: grow;
   animation-duration: 1s;
   animation-delay: 1s;
   animation-iteration-count: 4;
 
-  other animation properties
-  
+  /* other animation properties */
   animation-timing-function: ease-in;
   animation-direction: alternate; /* how you want the animation to playout. the default is ...: normal;
   there's also reverse, alternate, and alternate-reverse*/
-
-
   animation-fill-mode: both; /* both forwards, and backwards */
 
 
