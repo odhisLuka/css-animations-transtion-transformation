@@ -1,0 +1,23 @@
+/* animations are described stand alone from properties to elements, not really depedant on pesedoselectors. */
+
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: #f00;
+  border: 1px solid #000;
+
+  animation-name: first-animation;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  /* animation-iteration-count: 3; how many times you want the animation to run. */
+  /* the best option is infinite */
+  animation-iteration-count: infinite;
+
+}
+
+/* defining the steps the animation has to go through */
+
+@keyframes first-animation {
+  from {width: 100px; height: 100px; background-color: #f00;}
+  to {width: 10px; height: 10px; background-color: #008000;}
+}
