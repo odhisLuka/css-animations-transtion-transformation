@@ -1,0 +1,39 @@
+* {
+  font-family: roboto, sans serif;
+  margin: 0;
+  padding: 0;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(images/my-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+
+  animation: expand-fade-in 1.5s ease-out;
+  animation-fill-mode: both;
+}
+
+.title {
+  font-size: 4em;
+  text-transform: uppercase;
+
+  animation: fade-in 1s ease-out 2s;
+  animation-fill-mode: both;
+}
+
+/* for image, width left to right */
+@keyframes expand-fade-in {
+  from {opacity: 0%; width: 0;}
+  to {opacity: 100%; width: 100%;}
+}
+
+/* for center text */
+@keyframes fade-in {
+  from {opacity: 0%;}
+  to {opacity: 100%}
+}
