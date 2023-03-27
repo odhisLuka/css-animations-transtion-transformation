@@ -1,0 +1,29 @@
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: #f00;
+  border: 1px solid #000;
+
+  /* animation-name: grow;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: 4;
+
+  other animation properties
+  
+  animation-timing-function: ease-in;
+  animation-direction: alternate; /* how you want the animation to playout. the default is ...: normal;
+  there's also reverse, alternate, and alternate-reverse*/
+
+
+  animation-fill-mode: both; /* both forwards, and backwards */
+
+
+  /* animation shorthand */
+  animation: grow 1s ease-in 1s 4 alternate;
+}
+
+@keyframes grow {
+  from {width: 100px; height: 100px; background-color: #f00;}
+  to {width: 10px; height: 10px; background-color: #008000;}
+}
